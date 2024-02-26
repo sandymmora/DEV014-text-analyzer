@@ -1,14 +1,35 @@
 const analyzer = {  
+
   getWordCount: (text) => {
+    let words = text.split(" ");
+    return words.length;
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
+
   getCharacterCount: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
+    let characterCount = text.length;
+    return characterCount;
+    //TODO: esta función debe retornar el recuento de caracteres  que se encuentran en el parámetro `text` de tipo `string`.
   },
+
   getCharacterCountExcludingSpaces: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
+   
+    let CharacterCountExcludingSpaces = 0, i = 0;
+
+    while(i < text.length){
+       if((text.charCodeAt(i) > 65 && text.charCodeAt(i) < 90) | (text.charCodeAt(i) > 97 && text.charCodeAt(i) < 122)){
+        CharacterCountExcludingSpaces ++;
+        } else if( text.charCodeAt(i) == 65 | text.charCodeAt(i) == 90 | text.charCodeAt(i) == 97 | text.charCodeAt(i) == 122 ) {
+        CharacterCountExcludingSpaces ++;
+        }
+       i++;    
+      }
+    
+    return CharacterCountExcludingSpaces;
+    //TODO: esta función debe retornar el recuento de caracteres  excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
   },
-  getAverageWordLength: (text) => {    
+
+  getAverageWordLength: (text) => { 
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberCount: (text) => {

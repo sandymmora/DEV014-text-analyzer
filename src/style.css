@@ -43,11 +43,10 @@ ul {
     justify-content: center;
 }
 
-textarea {
+textarea[name="user-input"] {
     width: 70%;
     height: 200px;
     padding: 12px;
-    color: brown;
     border-radius: 12px;
     margin: 20px 0 20px 0;
 }
