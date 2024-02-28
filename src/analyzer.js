@@ -31,17 +31,27 @@ const analyzer = {
   },
   getNumberCount: (text) => {
 
-  let numberCount = 0;
+    let numberCount = 0;
 
-  for(var i=0; i<text.length; i++) {
-    if(text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57){ 
-      numberCount++;
+    for(var i=0; i<text.length; i++) {
+      if(text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57){ 
+        numberCount++;
+      }
     }
-  }
   return numberCount;
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberSum: (text) => {
+
+    let sum = 0;
+
+    for(var i=0; i<text.length; i++) {
+      if(text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57){
+        let numberSum = parseInt(text[i]); 
+        sum = sum + numberSum;
+      }
+    }
+    return sum;
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
   },
 };

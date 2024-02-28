@@ -22,6 +22,10 @@ function analizarTexto() {
     const cuartaMetrica = document.querySelector("li:nth-child(4)");
     cuartaMetrica.innerText  = "Números: " + numeros;
     
+    let sumaNumeros = analyzer.getNumberSum(text);
+    const quintaMetrica = document.querySelector("li:nth-child(5)");
+    quintaMetrica.innerText  = "Suma Números: " + sumaNumeros;
+    
 }
 
 
