@@ -30,6 +30,15 @@ const analyzer = {
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberCount: (text) => {
+
+  let numberCount = 0;
+
+  for(var i=0; i<text.length; i++) {
+    if(text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57){ 
+      numberCount++;
+    }
+  }
+  return numberCount;
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
   getNumberSum: (text) => {
