@@ -16,7 +16,9 @@ function analizarTexto() {
 
     let caracteresSinEspacios = analyzer.getCharacterCountExcludingSpaces(text);
     const tercerMetrica = document.querySelector("li:nth-child(3)");
-    tercerMetrica.innerText  = "Caracteres sin espacios: " + caracteresSinEspacios
+    tercerMetrica.innerText  = "Caracteres sin espacios: " + caracteresSinEspacios;
+
+    
 
 }
 

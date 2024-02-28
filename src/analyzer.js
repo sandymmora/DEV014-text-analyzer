@@ -14,16 +14,13 @@ const analyzer = {
 
   getCharacterCountExcludingSpaces: (text) => {
    
-    let CharacterCountExcludingSpaces = 0, i = 0;
+    let CharacterCountExcludingSpaces = 0;
 
-    while(i < text.length){
-       if((text.charCodeAt(i) > 65 && text.charCodeAt(i) < 90) | (text.charCodeAt(i) > 97 && text.charCodeAt(i) < 122)){
+    for (var i = 0; i < text.length ; i++) {
+      if((text.charCodeAt(i) >= 65 && text.charCodeAt(i) <= 90) | (text.charCodeAt(i) >= 97 && text.charCodeAt(i) <= 122)) {
         CharacterCountExcludingSpaces ++;
-        } else if( text.charCodeAt(i) == 65 | text.charCodeAt(i) == 90 | text.charCodeAt(i) == 97 | text.charCodeAt(i) == 122 ) {
-        CharacterCountExcludingSpaces ++;
-        }
-       i++;    
-      }
+         } 
+    }
     
     return CharacterCountExcludingSpaces;
     //TODO: esta función debe retornar el recuento de caracteres  excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
