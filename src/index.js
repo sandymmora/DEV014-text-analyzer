@@ -25,7 +25,10 @@ function analizarTexto() {
     let sumaNumeros = analyzer.getNumberSum(text);
     const quintaMetrica = document.querySelector("li:nth-child(5)");
     quintaMetrica.innerText  = "Suma Números: " + sumaNumeros;
-    
+
+    let promedioPalabras = analyzer.getAverageWordLength(text);
+    const sextaMetrica = document.querySelector("li:nth-child(6)");
+    sextaMetrica.innerText  = "Longitud media: " + promedioPalabras;
 }
 
 
