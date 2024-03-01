@@ -1,3 +1,4 @@
+
 const analyzer = {  
 
   getWordCount: (text) => { 
@@ -30,20 +31,38 @@ const analyzer = {
   },
 
   getAverageWordLength: (text) => { 
-    const suma = analyzer.getNumberSum(text);
+    let wordsLength = 0;
+    let wordCount = 0;
+    const words = text.split(" ");
+    for(let i=0; i<words.length; i++) { 
+      if(words[i].length !== 0) {
+        wordCount++;   
+        wordsLength+=words[i].length;
+      }
+     
+    }
+    let averageWordLength = wordsLength / wordCount;
+    averageWordLength = parseFloat(averageWordLength.toFixed(2));
+
+    return averageWordLength;
     //console.log(suma);
-    //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
+    //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string` 
   },
+
   getNumberCount: (text) => {
     let numberCount = 0;
+    const words = text.split(" ");
+    //console.log(words, "palabras");
+    console.log(words[0].charAt(2));
     for(let i=0; i<text.length; i++) {
       if(text.charCodeAt(i) >= 48 && text.charCodeAt(i) <= 57) {  
         numberCount++;
       }
     }
-  return numberCount;
+    return numberCount;
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
   },
+
   getNumberSum: (text) => {
     let sum = 0;
     for(let i=0; i<text.length; i++) {
