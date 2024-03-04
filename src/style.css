@@ -42,7 +42,7 @@ ul {
 .metrica {  
     margin:16px;
     padding: 14px;
-    border: 3px solid #E1AA7D;
+    border: 3px solid #B6D094;
     background-color: #DEB491;
     display: flex;
     justify-content: center;
@@ -55,7 +55,7 @@ textarea[name="user-input"] {
     border: none;
     border-radius: 12px;
     margin: 20px 0 20px 0;
-    background-color:#B6D094;
+    background-color: #DEB491;
     color: #583A23;
     font-size: 20px;
 }
