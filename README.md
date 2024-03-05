@@ -1,9 +1,15 @@
 # Analizador de texto 📝
 ## Índice
-
+[Descripción](#descripcion) 
 [Funcionalidades](#funcionalidades)
+[Uso de la aplicación](#uso)
+[Tecnologías utilizadas](#tec)
 
-Esta aplicación web sirve para analizar un texto en el navegador y muestra una seria de indicadores y metricas correspondientes al texto ingresado.
+<div id='descripcion'/>
+## Descripción de la aplicación
+
+Esta es una aplicación web que sirve para analizar un texto en el navegador y muestra una seria de indicadores y metricas correspondientes al texto ingresado.
+
 <div id='funcionalidades'/>
 ## Funcionalidades 📊
 
@@ -22,12 +28,14 @@ El analizador tiene las siguientes funcionalidades:
 6.- Muestra un promedio correspondiente a la longitud de las palabras que conforman el texto ingresado.
 
 7.- Por ultimo cuenta con un botón que nos permite limpiar las metricas y comenzar de nuevo.
-
+<div id='uso'/>
 ## Uso 📜
 
 El uso de esta pagina web permite a la usuaria comprender el texto y obtener datos para su tratamiento.
 
 Es muy sencillo de usar, solo se requiere ingresar un texto en el area rectangular que se encuentra en el centro, cada vez que exista un cambio en el texto, las metricas van a actualizarse, no es necesario hacer algo más para obtener las metricas.
+
+<div id='tec'/>
 
 ## Tecnologías utilizadas.
 
