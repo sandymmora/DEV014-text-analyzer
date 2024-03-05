@@ -1,25 +1,10 @@
-# Analizador de texto
-
+# Analizador de texto 📝
 ## Índice
 
-* [1. Descripción del proyecto(#1-consideraciones-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Funcionalidades](#4-funcionalidades)
-* [5. Boilerplate](#5-boilerplate)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Pruebas](#7-pruebas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
-* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
-* [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
-
-***
-
-# Analizador de texto 📝
+[Funcionalidades](#funcionalidades)
 
 Esta aplicación web sirve para analizar un texto en el navegador y muestra una seria de indicadores y metricas correspondientes al texto ingresado.
-
+<div id='funcionalidades'/>
 ## Funcionalidades 📊
 
 El analizador tiene las siguientes funcionalidades:
