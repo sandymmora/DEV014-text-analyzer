@@ -6,7 +6,7 @@
 
 [Uso de la aplicación](#uso-📜)
 
-[Tecnologías utilizadas](#tecnologías-utilizadas)
+[Tecnologías utilizadas](#tecnologías-utilizadas-💻)
 
 
 ## Descripción de la aplicación
@@ -40,7 +40,7 @@ El uso de esta pagina web permite a la usuaria comprender el texto y obtener dat
 Es muy sencillo de usar, solo se requiere ingresar un texto en el area rectangular que se encuentra en el centro, cada vez que exista un cambio en el texto, las metricas van a actualizarse, no es necesario hacer algo más para obtener las metricas.
 
 
-## Tecnologías utilizadas.
+## Tecnologías utilizadas. 💻
 
 *Javascript
 
