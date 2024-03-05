@@ -1,8 +1,11 @@
 # Analizador de texto 📝
 ## Índice
 [Descripción](#descripcion) 
+
 [Funcionalidades](#funcionalidades)
+
 [Uso de la aplicación](#uso)
+
 [Tecnologías utilizadas](#tec)
 
 <div id='descripcion'/>
